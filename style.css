@@ -1,10 +1,13 @@
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
   font-family: "Alice", sans-serif;
   line-height: 150%;
   color: #573a37;
 }
-
 body {
   background-image: url(assets/bg-image.png);
   background-size: cover;
@@ -12,6 +15,7 @@ body {
 }
 
 #page {
+  box-sizing: border-box;
   width: 800px;
   padding: 24px;
   background-color: #F0E8C2;
@@ -23,7 +27,17 @@ img {
   border-radius: 16px;
 }
 
+main {
+  padding: 24px;
+}
+
+#about p + p{
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
 h1 {
+  margin-top: 4px;
   line-height: 140%;
   font-size: 40px;
 }
