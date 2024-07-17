@@ -57,3 +57,10 @@ section + section {
 ul {
   padding-left: 48px;
 }
+
+footer {
+  text-align: center;
+  padding-bottom: 54px;
+  color: #F0E8C2;
+  font-size: 16px;
+}
