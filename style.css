@@ -33,11 +33,9 @@ main {
 
 #about p + p{
   margin-top: 12px;
-  margin-bottom: 24px;
 }
 
 h1 {
-  margin-top: 4px;
   line-height: 140%;
   font-size: 40px;
 }
@@ -48,4 +46,14 @@ h2 {
 
 h1, h2 {
   color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+ul {
+  padding-left: 48px;
 }
